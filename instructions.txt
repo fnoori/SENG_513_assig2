@@ -1,0 +1,3 @@
+URL: https://fnoori.github.io/SENG_513_assig2/
+Browsers tested on: Firefox and Chrome
+Deployment: Click on the URL above
