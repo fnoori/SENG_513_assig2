@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 
-.cal-body {
+.calc-body {
   background-color: lightblue;
   width: 600px;
   height: 600px;
@@ -35,7 +35,7 @@ body {
 .calc-btns {
   background-color: aliceblue;
   margin: 2rem;
-  height: 24rem;
+  height: 27rem;
   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
   padding: 1rem 2rem;
 }
@@ -45,4 +45,13 @@ body {
 .calc-row {
 }
 .calc-btn {
+  background-color: rgba(255, 160, 122, 0.9);
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+  font-weight: bold;
+  border: solid aliceblue;
+}
+.calc-btn:active {
+  background-color: rgba(255, 160, 122, 1);
 }

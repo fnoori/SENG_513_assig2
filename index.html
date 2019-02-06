@@ -3,6 +3,8 @@
 <head>
   <title>Page Title</title>
 
+  <meta charset="UTF-8">
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -13,22 +15,37 @@
 </head>
 <body>
 
-  <div class="cal-body">
+  <div class="calc-body">
     <div class="display-area">1 + 2</div>
     <div class="calc-btns">
         <div class="row text-center">
-          <div class="col">
-            0
-          </div>
-          <div class="col">
-            0
-          </div>
-          <div class="col">
-            0
-          </div>
-          <div class="col">
-            0
-          </div>
+          <div id="c" class="col-3 calc-btn">C</div>
+          <div id="(" class="col-3 calc-btn">(</div>
+          <div id=")" class="col-3 calc-btn">)</div>
+          <div id="/" class="col-3 calc-btn">/</div>
+        </div>
+        <div class="row text-center">
+          <div id="7" class="col-3 calc-btn">7</div>
+          <div id="8" class="col-3 calc-btn">8</div>
+          <div id="9" class="col-3 calc-btn">9</div>
+          <div id="x" class="col-3 calc-btn">x</div>
+        </div>
+        <div class="row text-center">
+          <div id="4" class="col-3 calc-btn">4</div>
+          <div id="5" class="col-3 calc-btn">5</div>
+          <div id="6" class="col-3 calc-btn">6</div>
+          <div id="-" class="col-3 calc-btn">-</div>
+        </div>
+        <div class="row text-center">
+          <div id="1" class="col-3 calc-btn">1</div>
+          <div id="2" class="col-3 calc-btn">2</div>
+          <div id="3" class="col-3 calc-btn">3</div>
+          <div id="+" class="col-3 calc-btn">+</div>
+        </div>
+        <div class="row text-center">
+          <div id="0" class="col-6 calc-btn">0</div>
+          <div id="." class="col calc-btn">.</div>
+          <div id="=" class="col calc-btn">=</div>
         </div>
     </div>
   </div>
