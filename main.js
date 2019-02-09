@@ -1,5 +1,4 @@
 const EQUAL = '=';
-const MAX_LEN = 8;
 const TIMES_SYMBOL = 'x';
 const CLEAR_SYMBOL = 'c';
 const ERROR = 'ERROR';
@@ -23,10 +22,6 @@ buttonClicked = (value) => {
       return;
     }
 
-    if (toEval.length >= MAX_LEN) {
-      return;
-    }
-
     if (value === TIMES_SYMBOL) {
       toEval.push('*');
     } else {
@@ -45,4 +40,5 @@ buttonClicked = (value) => {
       $('#num-display').text(ERROR);
     }
   }
+  $('#num-display').scrollLeft($('#num-display').outerWidth());
 }
